@@ -1,44 +1,39 @@
 export default function Projects() {
   const projects = [
     {
-      title: "Internship Portal",
-      techStack: "Next.js, Tailwind CSS, Node.js, MySQL",
-      role: "Full Stack Developer",
+      title: "JCI Official Website",
+      techStack: "Next.js, Tailwind CSS",
       image: "https://images.unsplash.com/photo-1613545325278-f24b0cae1224?auto=format&fit=crop&w=1770&q=80",
-      live: "#",
-      github: "#",
+      live: "jciponda.in",
+      github: "https://github.com/ShrinivasInamdar/JCI-PONDA",
     },
     {
-      title: "Pet Care Platform",
-      techStack: "React, Express, MongoDB, Tailwind",
-      role: "Frontend Developer",
+      title: "Pawsnet",
+      techStack: "Next.js,Tailwind CSS, Superbase",
       image: "https://images.unsplash.com/photo-1598136498860-44da5e76c5c6?auto=format&fit=crop&w=800&q=80",
-      live: "#",
-      github: "#",
+      live: "https://pawsnet.vercel.app/",
+      github: "https://github.com/25Jayesh10/Pawsnet",
     },
     {
-      title: "Portfolio Website",
-      techStack: "Next.js, Lenis, Framer Motion",
-      role: "Designer & Developer",
+      title: "Pawesome",
+      techStack: "HTML,CSS,JavaScript, Django Python",
       image: "https://images.unsplash.com/photo-1603898037225-88d3d85f1d71?auto=format&fit=crop&w=800&q=80",
       live: "#",
       github: "#",
     },
     {
-      title: "Weather App",
-      techStack: "React, OpenWeatherMap API",
-      role: "Frontend Developer",
+      title: "Mini Crud App",
+      techStack: "Next.js, Next.js API, MongoDB",
       image: "https://images.unsplash.com/photo-1604023481447-9a453b04f2e2?auto=format&fit=crop&w=800&q=80",
-      live: "#",
-      github: "#",
+      // live: "#",
+      github: "https://github.com/pranavkerkar31/MongoDB-CRUD-Operations",
     },
     {
-      title: "Chat App",
-      techStack: "Socket.IO, Node.js, React",
-      role: "Full Stack Developer",
+      title: "Decentralized Payments Gateway",
+      techStack: "Next.js, Node.js, ethers library, Solidity, Wallet Connect",
       image: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80",
-      live: "#",
-      github: "#",
+      // live: "#",
+      github: "https://github.com/jayraneo/HACKINDIA2025-SPARK-3--BLOCK-CODERS",
     },
   ];
 
@@ -60,7 +55,7 @@ export default function Projects() {
             <h3 className="text-xl font-semibold text-indigo-400">{project.title}</h3>
             <p className="text-sm text-gray-300 mt-2">
               <strong>Tech Stack:</strong> {project.techStack}<br />
-              <strong>Role:</strong> {project.role}
+             
             </p>
             <div className="mt-4 flex gap-3">
               <a

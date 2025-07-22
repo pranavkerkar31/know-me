@@ -1,28 +1,20 @@
 export default function Experience() {
   const experiences = [
     {
-      company: "TechVerse Pvt Ltd",
+      company: "Intern at Fluxatic Global",
       role: "Full Stack Developer Intern",
-      duration: "Jan 2024 – May 2024",
+      duration: "July 2025 – Present",
       description:
         "Worked on developing REST APIs and integrating frontend features using React and Express. Improved performance by optimizing API queries.",
       techStack: "React, Node.js, Express, MongoDB",
     },
     {
-      company: "Open Source Contribution",
-      role: "Contributor",
-      duration: "Aug 2023 – Dec 2023",
+      company: "Secretary of Department of Computer Engineering ",
+      role: "Leadership, Team Collaboration",
+      duration: "Aug 2024 – Oct 2024",
       description:
-        "Contributed to multiple open-source repositories including bug fixes, feature additions, and documentation improvements.",
-      techStack: "Next.js, Git, Markdown",
-    },
-    {
-      company: "Freelance Projects",
-      role: "Frontend Developer",
-      duration: "Mar 2023 – Jul 2023",
-      description:
-        "Developed responsive UI/UX for small businesses and startups. Delivered SEO-optimized and accessible designs.",
-      techStack: "HTML, Tailwind CSS, JavaScript",
+        "In 2024, I served as Secretary of the C-Codes Computer Engineering Department, where I played a key role in planning and execution. Together with an incredible team, we brought Goa’s biggest tech spectacle—Inspirus 8—to life on October 10th and 11th. The event blended innovation, tech culture, and collaboration",
+      // techStack: "Next.js, Git, Markdown",
     },
   ];
 
@@ -39,7 +31,7 @@ export default function Experience() {
             <h3 className="text-xl font-semibold text-indigo-400">{exp.company}</h3>
             <p className="text-sm text-gray-400">{exp.role} • {exp.duration}</p>
             <p className="mt-3 text-gray-300">{exp.description}</p>
-            <p className="mt-2 text-sm text-gray-400"><strong>Tech Stack:</strong> {exp.techStack}</p>
+            {/* <p className="mt-2 text-sm text-gray-400"><strong>Tech Stack:</strong> {exp.techStack}</p> */}
           </div>
         ))}
       </div>
