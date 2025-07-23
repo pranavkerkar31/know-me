@@ -16,7 +16,6 @@ This website includes:
 
 - **Framework**: [Next.js 15](https://nextjs.org/)
 - **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
-- **Animation**: [GSAP](https://greensock.com/gsap/), [Lenis](https://lenis.studiofreight.com/)
 - **TypeScript**
 - **Icons**: [FontAwesome](https://fontawesome.com/)
 - **Fonts**: [Geist](https://vercel.com/fonts/geist)
@@ -49,40 +48,28 @@ cd your-portfolio/myapp
 2. Install Dependencies
 Make sure you have Node.js ≥ 18 installed.
 
-bash
-Copy
-Edit
+
 npm install
 Or, if you're using Yarn:
 
-bash
-Copy
-Edit
 yarn install
 3. ⚠ Warning: Multiple Lockfiles?
 You might see:
 
 makefile
-Copy
-Edit
+
 Warning: Found multiple lockfiles...
 Fix: Delete the unnecessary one:
 
-bash
-Copy
-Edit
+
 rm ../package-lock.json
 Only keep myapp/package-lock.json or yarn.lock in the root folder.
 
 4. Run Dev Server
-bash
-Copy
-Edit
+
 npm run dev
 Visit: http://localhost:3000
 
 📦 Production Build
-bash
-Copy
-Edit
+
 npm run build
