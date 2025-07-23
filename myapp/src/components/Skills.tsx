@@ -14,7 +14,7 @@ export default function Skills() {
     },
     {
       title: 'Tools & Platforms',
-      skills: ['Git', 'GitHub', 'VS Code', 'Postman', 'Figma', 'Vercel'],
+      skills: ['Git', 'GitHub', 'VS Code', 'Postman','Vercel'],
     },
   ];
 

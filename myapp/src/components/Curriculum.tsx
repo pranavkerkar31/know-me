@@ -84,7 +84,7 @@ export default function CurriculumList() {
             <div className="p-4">
               <h3 className="text-lg font-semibold text-indigo-400">{item.title}</h3>
               <p className="text-sm text-gray-400 mt-1">{item.date}</p>
-              <p className="text-sm mt-2 text-gray-200">{item.description}</p>
+              {/* <p className="text-sm mt-2 text-gray-200">{item.description}</p> */}
             </div>
           </div>
         ))}
