@@ -33,7 +33,7 @@ export default function Hero() {
               </div>
 
               <div className="mt-6 flex gap-6 text-white text-2xl">
-                <a href="https://www.linkedin.com/in/pranav-kerkar" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/pranav-kerkar-900432253" target="_blank" rel="noopener noreferrer">
                   <FontAwesomeIcon icon={faLinkedin} className="hover:text-indigo-400 transition" />
                 </a>
                 <a href="https://www.instagram.com/pranav_kerkar" target="_blank" rel="noopener noreferrer">
