@@ -11,7 +11,7 @@ export default function Hero() {
           <div className="p-8 md:p-12 lg:px-16 lg:py-24">
             <div className="mx-auto max-w-xl text-left">
               <h2 className="text-4xl font-bold text-white sm:text-5xl">
-                👋 Hello, I'm <span className="text-indigo-500">Pranav Kerkar</span>
+                👋 Hello, I&apos;m <span className="text-indigo-500">Pranav Kerkar</span>
               </h2>
 
               <h3 className="mt-2 text-2xl font-semibold text-gray-200 sm:text-3xl">
@@ -20,7 +20,7 @@ export default function Hero() {
 
               <p className="mt-4 text-base text-gray-400 sm:text-lg">
                 I love building modern, responsive, and interactive web applications.
-                Let's turn ideas into digital experiences.
+                Let&apos;s turn ideas into digital experiences.
               </p>
 
               <div className="mt-6 flex gap-4">
@@ -54,7 +54,6 @@ export default function Hero() {
               height={500}
               className="h-40 w-full object-cover sm:h-56 md:h-full"
             />
-
             <Image
               alt=""
               src="/profile2.jpg"
@@ -62,7 +61,6 @@ export default function Hero() {
               height={500}
               className="h-40 w-full object-cover sm:h-56 md:h-full"
             />
-
           </div>
         </div>
       </div>
