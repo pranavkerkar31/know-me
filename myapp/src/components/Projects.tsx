@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function Projects() {
   const projects = [
     {
@@ -47,11 +48,14 @@ export default function Projects() {
             key={index}
             className="bg-[#11182a] rounded-xl shadow-lg p-5"
           >
-            <img
+            <Image
               src={project.image}
               alt={project.title}
+              width={500} // adjust based on your design
+              height={200} // adjust based on your design
               className="rounded-md h-48 w-full object-fill mb-4"
             />
+
             <h3 className="text-xl font-semibold text-indigo-400">{project.title}</h3>
             <p className="text-sm text-gray-300 mt-2">
               <strong>Tech Stack:</strong> {project.techStack}<br />
