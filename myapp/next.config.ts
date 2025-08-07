@@ -1,8 +1,7 @@
-import type { NextConfig } from "next";
-const { withNetlify } = require('@netlify/next');
+import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  output: 'export',
 };
 
 export default nextConfig;
