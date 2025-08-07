@@ -28,7 +28,7 @@ export default function Hero() {
                   href="/Pranav_Resume.pdf"
                   className="inline-block rounded border border-white bg-white px-6 py-3 text-sm font-medium text-black hover:bg-transparent hover:text-white transition"
                 >
-                 My Resume
+                  My Resume
                 </a>
               </div>
 
@@ -47,16 +47,22 @@ export default function Hero() {
           </div>
 
           <div className="grid grid-cols-2 gap-4 md:grid-cols-1 lg:grid-cols-2">
-            <img
+            <Image
               alt="Pranav Kerkar"
               src="/profile.jpg"
+              width={500}
+              height={500}
               className="h-40 w-full object-cover sm:h-56 md:h-full"
             />
-            <img
-              alt=""   
-              src="profile2.jpg"
+
+            <Image
+              alt=""
+              src="/profile2.jpg"
+              width={500}
+              height={500}
               className="h-40 w-full object-cover sm:h-56 md:h-full"
             />
+
           </div>
         </div>
       </div>

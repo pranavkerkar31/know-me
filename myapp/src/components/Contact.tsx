@@ -11,14 +11,19 @@ export default function ContactForm() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Left: Contact Info */}
           <div className="space-y-6">
-            <p className="text-lg text-gray-300">
+            {/* <p className="text-lg text-gray-300">
               I'd love to hear from you! Whether it's a question, project idea, or just to say hello —
               feel free to reach out.
+            </p> */}
+            <p className="text-lg text-gray-300">
+              I&apos;d love to hear from you! Whether it&apos;s a question, project idea, or just to say hello —
+              feel free to reach out.
             </p>
+
             <div className="text-md leading-relaxed space-y-2">
               <p>
                 <strong>Phone:</strong>{' '}
-                <a  className="text-indigo-400 ">
+                <a className="text-indigo-400 ">
                   +91 8857990312
                 </a>
               </p>
