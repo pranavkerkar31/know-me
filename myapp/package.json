@@ -15,6 +15,7 @@
     "@studio-freight/lenis": "^1.0.42",
     "framer-motion": "^12.23.6",
     "gsap": "^3.13.0",
+    "netlify-cli": "^23.1.1",
     "next": "15.4.2",
     "react": "19.1.0",
     "react-dom": "19.1.0"
