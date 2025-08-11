@@ -74,8 +74,8 @@ export default function CurriculumList() {
                 <Image
                   src={item.Image}
                   alt={item.title}
-                  layout="fill"
-                  objectFit="cover"
+                  fill // replaces layout="fill"
+                  style={{ objectFit: 'cover' }} // replaces objectFit="cover"
                   className="rounded-t-xl"
                 />
               </div>
