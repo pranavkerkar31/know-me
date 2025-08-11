@@ -25,7 +25,7 @@ export default function Hero() {
 
               <div className="mt-6 flex gap-4">
                 <a
-                  href="/Pranav_Resume.pdf"
+                  href="/PranavKerkar_resume.pdf"
                   className="inline-block rounded border border-white bg-white px-6 py-3 text-sm font-medium text-black hover:bg-transparent hover:text-white transition"
                 >
                   My Resume

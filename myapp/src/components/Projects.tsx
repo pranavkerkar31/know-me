@@ -9,6 +9,13 @@ export default function Projects() {
       github: "https://github.com/ShrinivasInamdar/JCI-PONDA",
     },
     {
+      title: "Langchain WebApp",
+      techStack: "Flask, Langchain, Gemini API",
+      image: "/langchain.png",
+      live: "https://pranavkerkar.vercel.app/",
+      github: "https://github.com/pranavkerkar31/know-me",
+    },
+    {
       title: "Pawsnet",
       techStack: "Next.js,Tailwind CSS, Superbase",
       image: "/pawsnet.png",
