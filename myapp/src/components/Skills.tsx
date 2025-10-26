@@ -10,7 +10,7 @@ export default function Skills() {
     },
     {
       title: 'Backend',
-      skills: ['Node.js', 'Express.js', 'MongoDB', 'MySQL', 'REST API'],
+      skills: ['Node.js', 'Express.js', 'MongoDB', 'MySQL', 'REST API','Supabase'],
     },
     {
       title: 'Tools & Platforms',

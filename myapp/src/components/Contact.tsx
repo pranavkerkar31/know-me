@@ -16,7 +16,7 @@ export default function ContactForm() {
               feel free to reach out.
             </p> */}
             <p className="text-lg text-gray-300">
-              I&apos;d love to hear from you! Whether it&apos;s a question, project idea, or just to say hello —
+              I&apos;d love to hear from you! Whether it&apos;s a question, project idea, or just to say hello
               feel free to reach out.
             </p>
 

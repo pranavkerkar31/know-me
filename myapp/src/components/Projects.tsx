@@ -2,6 +2,20 @@ import Image from "next/image";
 export default function Projects() {
   const projects = [
     {
+      title: "AI Based CCTV Forensic Analysis",
+      techStack: "Next.js, Tailwind CSS, Supabase, Python, FastAPI, DeepFace, YOLOv8",
+      image: "",
+      // live: "https://jciponda.in",
+      github: "https://github.com/ShrinivasInamdar/JCI-PONDA",
+    },
+    {
+      title: "GoArta",
+      techStack: "Next.js, Tailwind CSS, Supabase, LangChain with Gemini API",
+      image: "/goarta.webp",
+      live: "https://goarta.vercel.app/",
+      github: "https://github.com/ShrinivasInamdar/JCI-PONDA",
+    },
+    {
       title: "JCI Official Website",
       techStack: "Next.js, Tailwind CSS",
       image: "/jci.png",

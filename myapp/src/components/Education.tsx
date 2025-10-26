@@ -22,7 +22,7 @@ export default function Education() {
                         <h3 className="text-xl font-semibold text-indigo-600 dark:text-indigo-400">B.Tech - Computer Engineering</h3>
                         <p className="text-gray-700 dark:text-gray-300 mt-2">
                             Don Bosco College of Engineering, Goa <br />
-                            2022 – Present, CGPA - 7.98
+                            2022 – Present, CGPA - 8.08
                         </p>
                     </motion.div>
 
