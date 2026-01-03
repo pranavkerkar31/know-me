@@ -10,6 +10,18 @@ interface CurriculumProps {
 
 const curriculumData: CurriculumProps[] = [
   {
+    title: "1st place at ECELL Event",
+    description: "Currently enrolled in an AI course covering ML, DL, and LLMs.",
+    date: "November 2025",
+    Image: "./IMG_8859.JPG",
+  },
+  {
+    title: "3rd place at INEX 2025",
+    description: "Currently enrolled in an AI course covering ML, DL, and LLMs.",
+    date: "November2025",
+    Image: "",
+  },
+  {
     title: "Goa Police Hackathon Finalist",
     description: "Currently enrolled in an AI course covering ML, DL, and LLMs.",
     date: "September 2025",
