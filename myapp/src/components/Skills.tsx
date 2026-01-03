@@ -1,20 +1,38 @@
-'use client';
+"use client";
 
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 
 export default function Skills() {
   const categories = [
     {
-      title: 'Frontend',
-      skills: ['HTML', 'CSS', 'JavaScript', 'React', 'Next.js', 'Tailwind CSS'],
+      title: "Frontend",
+      skills: ["React", "Next.js", "Tailwind CSS","Figma Make"],
     },
     {
-      title: 'Backend',
-      skills: ['Node.js', 'Express.js', 'MongoDB', 'MySQL', 'REST API','Supabase'],
+      title: "Backend",
+      skills: [
+        "Amazon DynamoDB",
+        "Amazon EC2",
+        "MongoDB",
+        "MySQL",
+        "Next.js API",
+        "Supabase",
+      ],
     },
     {
-      title: 'Tools & Platforms',
-      skills: ['Git', 'GitHub', 'VS Code', 'Postman','Vercel'],
+      title: "Tools & Platforms",
+      skills: [
+        "Git",
+        "GitHub",
+        "VS Code",
+        "Postman",
+        "Vercel",
+        "Amazon Cloud",
+        "Claude AI",
+        "Grok",
+        "ChatGPT",
+        "Cursor"
+      ],
     },
   ];
 
