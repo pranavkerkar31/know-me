@@ -1,19 +1,27 @@
 export default function Experience() {
   const experiences = [
     {
+      company: "Intern at Neural Kissan",
+      role: "Full Stack Developer Intern",
+      duration: "November 2025 – Current",
+      // description:
+      //   "Worked on developing REST APIs and integrating frontend features using Next.js. Improved performance by optimizing API queries. Studies the basic fundamentals of Digital Marketing, Public Speaking.",
+      // techStack: "Next.js, Supabase, LLM,",
+    },
+    {
       company: "Intern at Fluxatic Global",
       role: "Full Stack Developer Intern",
-      duration: "July 2025 – Present",
+      duration: "July 2025 – September 2025",
       description:
-        "Worked on developing REST APIs and integrating frontend features using React and Express. Improved performance by optimizing API queries.",
-      techStack: "React, Node.js, Express, MongoDB",
+        "Worked on developing REST APIs and integrating frontend features using Next.js. Improved performance by optimizing API queries. Studies the basic fundamentals of Digital Marketing, Public Speaking.",
+      techStack: "Next.js, Supabase, LLM,",
     },
     {
       company: "Secretary of Department of Computer Engineering ",
       role: "Leadership, Team Collaboration",
       duration: "Aug 2024 – Oct 2024",
       description:
-        "In 2024, I served as Secretary of the C-Codes Computer Engineering Department, where I played a key role in planning and execution. Together with an incredible team, we brought Goa’s biggest tech spectacle—Inspirus 8—to life on October 10th and 11th. The event blended innovation, tech culture, and collaboration",
+        "In 2024, I served as Secretary of the C-Codes Computer Engineering Department, where I played a key role in planning and execution. Together with an incredible team, we brought Goa’s biggest tech spectacle Inspirus 8 to life on October 10th and 11th. The event blended innovation, tech culture, and collaboration",
       // techStack: "Next.js, Git, Markdown",
     },
   ];
@@ -28,8 +36,12 @@ export default function Experience() {
             key={index}
             className="bg-[#111827] rounded-xl p-6 shadow-lg transition-transform duration-300 hover:scale-[1.02]"
           >
-            <h3 className="text-xl font-semibold text-indigo-400">{exp.company}</h3>
-            <p className="text-sm text-gray-400">{exp.role} • {exp.duration}</p>
+            <h3 className="text-xl font-semibold text-indigo-400">
+              {exp.company}
+            </h3>
+            <p className="text-sm text-gray-400">
+              {exp.role} • {exp.duration}
+            </p>
             <p className="mt-3 text-gray-300">{exp.description}</p>
             {/* <p className="mt-2 text-sm text-gray-400"><strong>Tech Stack:</strong> {exp.techStack}</p> */}
           </div>
