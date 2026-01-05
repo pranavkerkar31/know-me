@@ -4,7 +4,7 @@ export default function Projects() {
     {
       title: "AI Based CCTV Forensic Analysis",
       techStack: "Next.js, Tailwind CSS, Supabase, Python, FastAPI, DeepFace, YOLOv8",
-      image: "",
+      image: "./image.png",
       // live: "https://jciponda.in",
       github: "https://github.com/ShrinivasInamdar/JCI-PONDA",
     },
