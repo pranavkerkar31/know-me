@@ -19,7 +19,7 @@ const curriculumData: CurriculumProps[] = [
     title: "3rd place at INEX 2025",
     description: "Currently enrolled in an AI course covering ML, DL, and LLMs.",
     date: "November2025",
-    Image: "",
+    Image: "./inex.jpeg",
   },
   {
     title: "Goa Police Hackathon Finalist",
@@ -31,7 +31,7 @@ const curriculumData: CurriculumProps[] = [
     title: "AI Certification Course",
     description: "Currently enrolled in an AI course covering ML, DL, and LLMs.",
     date: "July 2025 - September 2025",
-    Image: "",
+    Image: "/ai.png",
   },
   {
     title: "Participated in HackIndia Hackathon",
