@@ -3,7 +3,7 @@ export default function Experience() {
     {
       company: "Intern at Neural Kissan",
       role: "Full Stack Developer Intern",
-      duration: "November 2025 – Current",
+      duration: "November 2025 – December 2025",
       // description:
       //   "Worked on developing REST APIs and integrating frontend features using Next.js. Improved performance by optimizing API queries. Studies the basic fundamentals of Digital Marketing, Public Speaking.",
       // techStack: "Next.js, Supabase, LLM,",
