@@ -6,14 +6,14 @@ export default function Projects() {
       techStack: "Next.js, Tailwind CSS, Supabase, Python, FastAPI, DeepFace, YOLOv8",
       image: "./image.png",
       // live: "https://jciponda.in",
-      github: "https://github.com/ShrinivasInamdar/JCI-PONDA",
+      github: "https://github.com/706ash/CCTV-Forensic-Analysis---SPD-Power-Rangers",
     },
     {
       title: "GoArta",
       techStack: "Next.js, Tailwind CSS, Supabase, LangChain with Gemini API",
       image: "/goarta.webp",
       live: "https://goarta.vercel.app/",
-      github: "https://github.com/ShrinivasInamdar/JCI-PONDA",
+      github: "https://github.com/jovanR9/GoArta-TokenDrift",
     },
     {
       title: "JCI Official Website",
@@ -26,7 +26,7 @@ export default function Projects() {
       title: "Langchain WebApp",
       techStack: "Flask, Langchain, Gemini API",
       image: "/langchain.png",
-      live: "https://pranavkerkar.vercel.app/",
+      live: "",
       github: "https://github.com/pranavkerkar31/know-me",
     },
     {

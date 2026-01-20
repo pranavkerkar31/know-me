@@ -1,28 +1,38 @@
 export default function Experience() {
   const experiences = [
     {
-      company: "Intern at Neural Kissan",
+      company: "Neural Kissan",
       role: "Full Stack Developer Intern",
       duration: "November 2025 – December 2025",
-      // description:
-      //   "Worked on developing REST APIs and integrating frontend features using Next.js. Improved performance by optimizing API queries. Studies the basic fundamentals of Digital Marketing, Public Speaking.",
-      // techStack: "Next.js, Supabase, LLM,",
+      description: [
+        "Implemented ESP32-based local automation for pH control, lighting, and pump scheduling in hydroponics racks",
+        "Developed a web dashboard to log, visualize, and monitor plant growth and harvest data",
+        "Integrated cloud storage and backend APIs using AWS for data management and exports",
+      ],
+      techStack: ["Next.js", "Supabase", "LLM", "AWS", "ESP32"],
     },
     {
-      company: "Intern at Fluxatic Global",
-      role: "Full Stack Developer Intern",
+      company: "Fluxatic Global",
+      role: "Techinal Intern",
       duration: "July 2025 – September 2025",
-      description:
-        "Worked on developing REST APIs and integrating frontend features using Next.js. Improved performance by optimizing API queries. Studies the basic fundamentals of Digital Marketing, Public Speaking.",
-      techStack: "Next.js, Supabase, LLM,",
+      description: [
+        "Developed and maintained REST APIs for core application features",
+        "Integrated frontend components using Next.js",
+        "Improved backend performance by optimizing API queries",
+        "Gained foundational knowledge in digital marketing and public speaking",
+      ],
+      techStack: ["Next.js", "Supabase", "LLM"],
     },
     {
-      company: "Secretary of Department of Computer Engineering ",
+      company: "Secretary of Department of Computer Engineering",
       role: "Leadership, Team Collaboration",
       duration: "Aug 2024 – Oct 2024",
-      description:
-        "In 2024, I served as Secretary of the C-Codes Computer Engineering Department, where I played a key role in planning and execution. Together with an incredible team, we brought Goa’s biggest tech spectacle Inspirus 8 to life on October 10th and 11th. The event blended innovation, tech culture, and collaboration",
-      // techStack: "Next.js, Git, Markdown",
+      description: [
+        "Served as Secretary of the C-Codes Computer Engineering Department",
+        "Led planning and execution of Goa’s largest tech event, Inspirus 8",
+        "Coordinated cross-functional teams for logistics, communication, and execution",
+        "Successfully delivered a two-day event on October 10th and 11th focused on innovation and tech culture",
+      ],
     },
   ];
 
@@ -39,11 +49,30 @@ export default function Experience() {
             <h3 className="text-xl font-semibold text-indigo-400">
               {exp.company}
             </h3>
+
             <p className="text-sm text-gray-400">
               {exp.role} • {exp.duration}
             </p>
-            <p className="mt-3 text-gray-300">{exp.description}</p>
-            {/* <p className="mt-2 text-sm text-gray-400"><strong>Tech Stack:</strong> {exp.techStack}</p> */}
+
+            {/* ✅ Bullet points */}
+            <ul className="mt-4 list-disc list-outside pl-5 text-justify space-y-3 text-gray-300">
+              {exp.description.map((point, i) => (
+                <li key={i}>{point}</li>
+              ))}
+            </ul>
+
+            {exp.techStack && (
+              <div className="mt-4 flex flex-wrap gap-2">
+                {exp.techStack.map((tech, i) => (
+                  <span
+                    key={i}
+                    className="text-xs bg-indigo-900/40 text-indigo-300 px-2 py-1 rounded-md"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+            )}
           </div>
         ))}
       </div>
